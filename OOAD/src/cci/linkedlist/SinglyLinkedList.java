@@ -23,6 +23,10 @@ public class SinglyLinkedList<T> {
 	}
 
 
+	public void setHead(Node<T> head) {
+		this.head = head;
+	}
+
 	// code for inserting at the end
 	public void appendToTail(T d) {
 		System.out.println("Appending " + d);

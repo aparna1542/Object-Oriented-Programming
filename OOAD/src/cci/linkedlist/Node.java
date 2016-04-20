@@ -10,7 +10,7 @@ package cci.linkedlist;
 public class Node<T> {
 
 	T data;
-	Node<T> next;
+	public Node<T> next;
 	
 	public Node() {
 		
@@ -18,4 +18,10 @@ public class Node<T> {
 	public Node(T data) {
 		this.data = data;
 	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return data+"";
+	}
+
 }
