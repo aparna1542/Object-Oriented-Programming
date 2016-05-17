@@ -9,7 +9,7 @@ package cci.linkedlist;
  */
 public class Node<T> {
 
-	T data;
+	public T data;
 	public Node<T> next;
 	
 	public Node() {

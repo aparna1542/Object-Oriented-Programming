@@ -9,6 +9,7 @@ package leetcode;
  */
 public class Node<T> {
 	T data;
+;
 	Node<T> prev;
 	Node<T> next;
 	T key; //to track for which key are we creating a node
@@ -17,6 +18,8 @@ public class Node<T> {
 		this.data = data1;
 		this.key = key;
 	}
+	
+	
 
 	
 }
